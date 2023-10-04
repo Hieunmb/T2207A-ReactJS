@@ -1,4 +1,4 @@
-function BreadCumbs(){
+function BreadCrumbs(){
     return(
         <section className="breadcrumb-section set-bg" style={{backgroundImage:"url(img/breadcrumb.jpg)"}}>
         <div className="container">
@@ -17,4 +17,4 @@ function BreadCumbs(){
     </section>
     )
 }
-export default BreadCumbs
+export default BreadCrumbs
