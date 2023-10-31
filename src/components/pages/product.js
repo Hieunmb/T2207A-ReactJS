@@ -191,18 +191,18 @@ function Product(){
                 </div>
             </div>
         </div>
-        <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title related__product__title">
+        <div className="row">
+                <div className="col-lg-12">
+                    <div className="section-title related__product__title">
                         <h2>Related Product</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div className="row">
                {    
                     relateds.map((e,k)=>{
                         return (
-                            <div key={k} class="col-lg-3 col-md-4 col-sm-6">
+                            <div key={k} className="col-lg-3 col-md-4 col-sm-6">
                                 <ProductGrid product={e}/>
                             </div>
                         )
