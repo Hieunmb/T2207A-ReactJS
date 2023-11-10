@@ -7,8 +7,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { createStore } from 'redux';
 import cartReducer from './redux/cart/reducer';
 import { Provider } from 'react-redux';
+import rootReducers from './redux/rootReducer';
 
-const store = createStore(cartReducer);
+const store = createStore(rootReducers);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
